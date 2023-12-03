@@ -36,12 +36,7 @@ namespace w
             }
             else if(ss==true)
             {
-    ADMINLOGIN aDMINLOGIN = new ADMINLOGIN();
-            aDMINLOGIN.USERNAME_ = user.Text;
-            aDMINLOGIN.PASSWORD_=pass.Text;
-            entities.ADMINLOGINs.Add(aDMINLOGIN);
-            entities.SaveChanges();
-            MessageBox.Show("Successfull");
+  
             }
             bool IsValid(string pass)
             {
