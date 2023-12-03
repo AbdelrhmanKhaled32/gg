@@ -1,0 +1,35 @@
+C:\Users\IT\source\repos\w\w\bin\Debug\w.exe.config
+C:\Users\IT\source\repos\w\w\bin\Debug\w.exe
+C:\Users\IT\source\repos\w\w\bin\Debug\w.pdb
+C:\Users\IT\source\repos\w\w\bin\Debug\EntityFramework.dll
+C:\Users\IT\source\repos\w\w\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\IT\source\repos\w\w\bin\Debug\EntityFramework.xml
+C:\Users\IT\source\repos\w\w\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\IT\source\repos\w\w\obj\Debug\w.csproj.AssemblyReference.cache
+C:\Users\IT\source\repos\w\w\obj\Debug\w.csproj.SuggestedBindingRedirects.cache
+C:\Users\IT\source\repos\w\w\obj\Debug\admin.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\forgetpass.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\log in.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\MainWindow.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\sign up.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\userpage.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\App.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\w_Content.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\w_MarkupCompile.cache
+C:\Users\IT\source\repos\w\w\obj\Debug\w_MarkupCompile.lref
+C:\Users\IT\source\repos\w\w\obj\Debug\App.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\admin.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\forgetpass.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\log in.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\MainWindow.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\sign up.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\userpage.baml
+C:\Users\IT\source\repos\w\w\obj\Debug\w.g.resources
+C:\Users\IT\source\repos\w\w\obj\Debug\w.Properties.Resources.resources
+C:\Users\IT\source\repos\w\w\obj\Debug\w.csproj.GenerateResource.cache
+C:\Users\IT\source\repos\w\w\obj\Debug\w.csproj.CoreCompileInputs.cache
+C:\Users\IT\source\repos\w\w\obj\Debug\w.csproj.CopyComplete
+C:\Users\IT\source\repos\w\w\obj\Debug\w.exe
+C:\Users\IT\source\repos\w\w\obj\Debug\w.pdb
+C:\Users\IT\source\repos\w\w\obj\Debug\r.g.cs
+C:\Users\IT\source\repos\w\w\obj\Debug\r.baml

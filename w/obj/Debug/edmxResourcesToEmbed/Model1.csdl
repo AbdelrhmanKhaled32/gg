@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ADMINLOGIN">
+    <Key>
+      <PropertyRef Name="USERNAME_" />
+    </Key>
+    <Property Name="USERNAME_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PASSWORD_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="USER_">
+    <Key>
+      <PropertyRef Name="USERNAME_" />
+    </Key>
+    <Property Name="USERNAME_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GENDER" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AGE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ADDRESS_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DEPARTMENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="USRELOGIN">
+    <Key>
+      <PropertyRef Name="USERNAME_" />
+    </Key>
+    <Property Name="USERNAME_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PASSWORD_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="cEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ADMINLOGINs" EntityType="Self.ADMINLOGIN" />
+    <EntitySet Name="USER_" EntityType="Self.USER_" />
+    <EntitySet Name="USRELOGINs" EntityType="Self.USRELOGIN" />
+  </EntityContainer>
+</Schema>

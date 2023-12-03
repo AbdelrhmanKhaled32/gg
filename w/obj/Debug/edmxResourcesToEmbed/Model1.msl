@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="cEntities">
+    <EntitySetMapping Name="ADMINLOGINs">
+      <EntityTypeMapping TypeName="Model.ADMINLOGIN">
+        <MappingFragment StoreEntitySet="ADMINLOGIN">
+          <ScalarProperty Name="USERNAME_" ColumnName="USERNAME_" />
+          <ScalarProperty Name="PASSWORD_" ColumnName="PASSWORD_" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_">
+      <EntityTypeMapping TypeName="Model.USER_">
+        <MappingFragment StoreEntitySet="USER_">
+          <ScalarProperty Name="USERNAME_" ColumnName="USERNAME_" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="ADDRESS_" ColumnName="ADDRESS_" />
+          <ScalarProperty Name="DEPARTMENT" ColumnName="DEPARTMENT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USRELOGINs">
+      <EntityTypeMapping TypeName="Model.USRELOGIN">
+        <MappingFragment StoreEntitySet="USRELOGIN">
+          <ScalarProperty Name="USERNAME_" ColumnName="USERNAME_" />
+          <ScalarProperty Name="PASSWORD_" ColumnName="PASSWORD_" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

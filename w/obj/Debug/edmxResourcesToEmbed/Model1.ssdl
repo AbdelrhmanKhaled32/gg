@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ADMINLOGIN">
+    <Key>
+      <PropertyRef Name="USERNAME_" />
+    </Key>
+    <Property Name="USERNAME_" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PASSWORD_" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="USER_">
+    <Key>
+      <PropertyRef Name="USERNAME_" />
+    </Key>
+    <Property Name="USERNAME_" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="GENDER" Type="varchar" MaxLength="100" />
+    <Property Name="AGE" Type="varchar" MaxLength="100" />
+    <Property Name="ADDRESS_" Type="varchar" MaxLength="100" />
+    <Property Name="DEPARTMENT" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="USRELOGIN">
+    <Key>
+      <PropertyRef Name="USERNAME_" />
+    </Key>
+    <Property Name="USERNAME_" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PASSWORD_" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="ADMINLOGIN" EntityType="Self.ADMINLOGIN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER_" EntityType="Self.USER_" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USRELOGIN" EntityType="Self.USRELOGIN" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
