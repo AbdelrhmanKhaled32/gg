@@ -41,7 +41,7 @@ namespace w
             aDMINLOGIN.PASSWORD_=pass.Text;
             entities.ADMINLOGINs.Add(aDMINLOGIN);
             entities.SaveChanges();
-            MessageBox.Show("Successfully");
+            MessageBox.Show("Successfull");
             }
             bool IsValid(string pass)
             {
